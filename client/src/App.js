@@ -1,13 +1,7 @@
-import React from "react";
-import "./styles/main.css";
-import Splash from "./components/Splash";
+import React, { Component } from "react";
 
-function App() {
-  return (
-    <div className="App">
-      <Splash />
-    </div>
-  );
+export default class App extends Component {
+  render() {
+    return <div></div>;
+  }
 }
-
-export default App;
